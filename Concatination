@@ -5,9 +5,9 @@ class String
 {
 	char str[200];
 	public:
-		void read()
+		void Read()
 		{
-			cout<<"Enter a string: ";
+			cout<<"Enter a String: ";
 			cin>>str;
 		}
 	void print()
@@ -24,10 +24,10 @@ class String
 };
 int main()
 {
-	String s1,s2,s3;
-	s1.read();
-	s2.read();
-	s3=s1+s2;
-	s3.print();
+	String S1,S2,S3;
+	S1.Read();
+	S2.Read();
+	S3=s1+s2;
+	S3.print();
 	return 0;
 }
